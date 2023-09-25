@@ -3,9 +3,11 @@
 /* Step 1 - Setup type tasks - no code required */
 
 /* Step 2 - Variables */
-let fullName = "Melissa Orton";
-let currentYear = 2023;
-let profilePicture = "images/profile_photo.jpg"
+const fullName = "Melissa Orton";
+const currentYear = new Date().getFullYear(); 
+/*could also write:
+const currentYear = 2023; but the above way makes it dynamic.*/
+const profilePicture = "images/profile_photo.jpg"
 
 
 /* Step 3 - Element Variables */
